@@ -1,0 +1,275 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+nav {
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ffd700; /* Change the color on hover as needed */
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Your CSS styles go here */
+/* ... (Previous styles remain unchanged) */
+
+/* Additional styling for the hero and team members sections */
+
+/* Hero Section */
+#hero {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#hero img {
+  max-width: 100%;
+  max-height: 100px; /* Adjust the max-height to make the image smaller */
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero-content {
+  flex: 1;
+  padding: 20px;
+  color: #333; /* Change the text color as needed */
+}
+
+.hero-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+}
+
+/* Team Members Section */
+#team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.team-member {
+  width: calc(20% - 20px); /* Adjust the width as needed */
+  margin: 15px 5px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.team-member img {
+  width: 80%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  color: #333;
+  font-size: 1.5em;
+}
+
+.team-member p {
+  color: #555;
+  font-size: 1.1em;
+}
+
+/* Portfolio Page */
+.portfolio-item {
+  margin-bottom: 20px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+.service {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.service img {
+  width: 100%;
+  height: auto;
+}
+
+/* Portfolio Page */
+.portfolio-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Blog Page */
+.blog-post {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+}
+
+/* Contact Page */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Your CSS styles go here */
+/* ... (Previous styles remain unchanged) */
+
+/* Additional styling for the about section */
+
+#about {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#about p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Team Members Table */
+table {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Organization Info */
+#organization-info {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-basis: 30%; /* Adjust the width of each column */
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#organization-info h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#organization-info p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #555;
+}
